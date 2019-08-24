@@ -1,0 +1,27 @@
+<!-- Mononegavirales reference sequences from NCBI -->
+<ncbiImporter>
+  <giNumberFieldName>gb_gi_number</giNumberFieldName>
+  <sequenceFormat>GENBANK_XML</sequenceFormat>
+  <sourceName>ncbi-refseqs</sourceName>
+  <specificPrimaryAccessions>
+
+	<!-- ### BORNAVIRIDAE -->
+    <!-- Aquatic bird bornavirus 2 (Bornaviridae) -->
+    <primaryAccession>NC_030691</primaryAccession>
+    <!-- Borna disease virus 2 (Bornaviridae) -->
+    <primaryAccession>NC_030692</primaryAccession>
+    <!-- Canary bornavirus 1 (Bornaviridae) -->
+    <primaryAccession>NC_030690</primaryAccession>
+    <!-- Loveridges garter snake virus 1 (Bornaviridae) -->
+    <primaryAccession>NC_024778</primaryAccession>
+    <!-- Parrot bornavirus 4 (Bornaviridae) -->
+    <primaryAccession>NC_030688</primaryAccession>
+    <!-- Variegated squirrel bornavirus 1 (Bornaviridae) -->
+    <primaryAccession>NC_030701</primaryAccession>
+
+  </specificPrimaryAccessions>  
+  <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
+</ncbiImporter>
+
+
+

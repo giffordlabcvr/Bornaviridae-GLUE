@@ -1,0 +1,50 @@
+create feature whole_genome "Whole genome"
+feature whole_genome set metatag INFORMATIONAL true
+
+create feature N -p whole_genome "Nucleoprotein"
+feature N
+  set field displayName "N"
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE ebolavirusKuiken2006CodonLabeler
+  exit
+
+create feature X -p whole_genome "X protein"
+feature X
+  set field displayName "X"
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE ebolavirusKuiken2006CodonLabeler
+  exit
+
+create feature P -p whole_genome "P protein"
+feature P
+  set field displayName "P"
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE ebolavirusKuiken2006CodonLabeler
+  exit
+
+create feature M -p whole_genome "M protein"
+feature M
+  set field displayName "M"
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE ebolavirusKuiken2006CodonLabeler
+  exit
+
+create feature G -p whole_genome "Glycoprotein"
+feature G 
+  set field displayName "G"
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE ebolavirusKuiken2006CodonLabeler
+  exit
+
+create feature L -p whole_genome "Large protein / RNA polymerase"
+feature L 
+  set field displayName "L"
+  set metatag OWN_CODON_NUMBERING true
+  set metatag CODES_AMINO_ACIDS true
+  set metatag CODON_LABELER_MODULE ebolavirusKuiken2006CodonLabeler
+  exit
