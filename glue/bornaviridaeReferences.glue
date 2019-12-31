@@ -1,28 +1,19 @@
   #### Bornaviridae    
 
-  ### Master reference Borna disease virus 1 	
-  create reference REF_MASTER_BDV1 ncbi-refseqs NC_001607
+  # Mammalian
+  create reference REF_MASTER_BDV1  ncbi-refseqs NC_001607
+  create reference REF_BDV2      	ncbi-refseqs NC_030692
+  create reference REF_VSB1		 	ncbi-refseqs NC_030701
 
-  # Mammalian   
-  create reference REF_BDV2 NC_030692
-  create reference VSB1		NC_031949	# Variegated squirrel bornavirus 1
-  create reference VSB2		NC_030701   # Variegated squirrel bornavirus 2
+  # Avian 
+  create reference REF_ABBV1		ncbi-refseqs NC_029642
+  create reference REF_ABBV2	 	ncbi-refseqs NC_030691 
+  create reference REF_CBV1 		ncbi-refseqs NC_030690 
+  create reference REF_CBV2 	 	ncbi-refseqs NC_027892 
+  create reference REF_CBV3 	 	ncbi-refseqs NC_024296 
+  create reference REF_PBDV2	 	ncbi-refseqs NC_028106 
+  create reference REF_PBDV4 	 	ncbi-refseqs NC_030688
+  create reference REF_PBDV7 	 	ncbi-refseqs NC_030689
 
-  # Aquatic bird bornaviruses
-  create reference ABBV1	NC_029642
-  create reference ABBV2	NC_030691 
-
-  # Canary bornaviruses
-  create reference CBV1 	NC_030690 
-  create reference CBV2 	NC_027892 
-  create reference CBV3 	NC_024296
-  
-  # Parrot bornaviruses
-  create reference PBDV1	NC_030687 
-  create reference PBDV2	NC_028106 
-  create reference PBDV4 	NC_030688
-  create reference PBDV7 	NC_030689
-  create reference PBDV5	NC_030885
-
-  # Loveridges garter snake virus 1 	  
-  create reference LGSV1	NC_024778 
+  # Reptile	  
+  create reference REF_LGSV1	 	ncbi-refseqs NC_024778 

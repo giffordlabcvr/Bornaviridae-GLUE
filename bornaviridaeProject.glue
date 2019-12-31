@@ -1,0 +1,40 @@
+delete project bornaviridae
+
+create project bornaviridae "GLUE project for the Bornaviridae" --minVersion 0.1.50
+
+schema-project bornaviridae
+
+  run file glue/bornaviridaeSchemaExtensions.glue
+  exit
+
+project bornaviridae
+
+  # load project settings
+  run file glue/projectSettings.glue
+
+  # create modules
+  run file glue/bornaviridaeModules.glue
+
+  # Import sources 
+  import source sources/ncbi-refseqs/
+  
+  # Import data 
+  #run script glue/loadExogenousData.js
+  module genbankXmlPopulator populate
+
+  # Define genome features
+  run file glue/bornaviridaeFeatures.glue
+
+  # Create reference sequences
+  run file glue/bornaviridaeReferences.glue
+ 
+  # Add feature locations to references
+  #module featureLocationTextToGlue transform tabular/references/reference_feature_locations.tsv -r
+
+  # EVE extension
+  #run file glue/bornaviridaeEveExtension.glue
+
+  # Validate
+  validate
+
+  exit
