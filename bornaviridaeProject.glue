@@ -19,7 +19,7 @@ project bornaviridae
   import source sources/ncbi-refseqs/
   
   # Import data 
-  #run script glue/loadExogenousData.js
+  run script glue/loadIsolateData.js
   module genbankXmlPopulator populate
 
   # Define genome features
