@@ -1,0 +1,64 @@
+
+project bornaviridae
+
+  # load project settings
+  run file glue/core/bornaviridaeProjectSettings.glue
+
+  # create modules
+  run file glue/core/bornaviridaeModules.glue
+
+  # Import sources 
+  import source sources/ncbi-refseqs/
+  
+  # Import data 
+  run script glue/core/loadIsolateData.js
+  module genbankXmlPopulator populate
+
+  # Define genome features
+  run file glue/bornaviridaeFeatures.glue
+
+  # Create reference sequences
+  run file glue/bornaviridaeReferences.glue
+ 
+  # Add feature locations to references
+  #module featureLocationTextToGlue transform tabular/references/reference_feature_locations.tsv -r
+
+  # EVE extension
+  #run file glue/bornaviridaeEveExtension.glue
+
+  # Validate
+  validate
+
+  run file glue/core/projectSettings.glue
+
+  # create modules
+  run file glue/core/bornaviridaeModules.glue
+
+  # Define features
+  run file glue/core/bornaviridaeFeatures.glue
+
+  # Import sources
+  import source sources/ncbi-refseqs/
+  import source sources/fasta-refseqs/
+  
+  # Import sequence-associated data
+  run file glue/core/bornaviridaeImportSideData.glue
+  
+  # Create references
+  run file glue/core/bornaviridaeReferences.glue
+
+  # Add feature locations to reference sequences
+  module featureLocationTextToGlue transform tabular/virus/borna-reference_feature_locations.tsv  -r
+
+  # Add variations
+  #run file glue/core/bornaviridaeVariations.glue
+
+  # Import alignments
+  run file glue/core/bornaviridaeAlignments.glue
+
+  # Import alignment tree
+  run file glue/core/bornaviridaeAlignmentTree.glue
+ 
+  validate
+
+  exit
