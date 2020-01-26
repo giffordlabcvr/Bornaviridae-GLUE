@@ -3,6 +3,5 @@
 
     #~# Root
     import AL_UNCONSTRAINED -f alignments/root/bornaviridae-root.fna
-
- 
     exit
+
