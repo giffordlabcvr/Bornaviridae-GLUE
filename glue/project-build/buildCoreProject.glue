@@ -23,14 +23,11 @@ project bornaviridae
     transform tabular/virus/borna-reference_feature_locations.tsv  -r
     exit
 
-  # Add variations
-  #run file glue/core/bornaviridaeVariations.glue
-
   # Import alignments
-  #run file glue/core/bornaviridaeAlignments.glue
+  run file glue/core/bornaviridaeCreateAlignments.glue
 
   # Import alignment tree
-  #run file glue/core/bornaviridaeAlignmentTree.glue
+  run file glue/core/bornaviridaeAlignmentTree.glue
  
   validate
 
