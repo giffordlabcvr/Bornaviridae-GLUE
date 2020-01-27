@@ -12,5 +12,5 @@ schema-project bornaviridae
 run file glue/project-build/buildCoreProject.glue
 
 # Build endogenous bornavirus component
-#run file glue/project-build/buildEveExtension.glue
+run file glue/project-build/buildEveExtension.glue
 
