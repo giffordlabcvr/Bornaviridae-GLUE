@@ -1,0 +1,7 @@
+  # Import metadata for exogenous reference sequences from GenBank files
+  run script glue/core/loadIsolateData.js
+
+  # Import metadata for exogenous reference sequences from tabular
+  module bornaviridaeSideDataImporter 
+    populate -f tabular/virus/borna-ncbi-refseqs-side-data.tsv
+    exit

@@ -4,7 +4,7 @@
     
     <textFileColumn>
         <identifier>true</identifier>
-        <header>accession-ID</header>
+        <header>sequenceID</header>
         <property>sequenceID</property>
     </textFileColumn>
 
@@ -24,5 +24,18 @@
     </textFileColumn>
 
     <skipMissing>true</skipMissing>
+
+    <textFileColumn>
+        <header>virus_genus</header>
+        <property>genus</property>
+    </textFileColumn>
+
+
+    <textFileColumn>
+        <header>virus_clade</header>
+        <property>clade</property>
+    </textFileColumn>
+
+
 
 </textFilePopulator>

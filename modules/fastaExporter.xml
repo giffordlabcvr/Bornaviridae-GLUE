@@ -1,3 +1,0 @@
-<fastaExporter>
-    <idTemplate>${sequenceID}.${gb_length}</idTemplate>
-</fastaExporter>
