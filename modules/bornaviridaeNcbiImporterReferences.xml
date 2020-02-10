@@ -9,10 +9,8 @@
     <primaryAccession>NC_001607</primaryAccession>
     <!-- Bornavirus 2 -->
     <primaryAccession>NC_030692</primaryAccession>
- 
      <!-- Variegated squirrel bornavirus 1 -->
     <primaryAccession>NC_030701</primaryAccession>
-
     <!-- Aquatic bird bornavirus 1 -->
     <primaryAccession>NC_029642</primaryAccession>
     <!-- Aquatic bird bornavirus 2 -->
@@ -33,7 +31,11 @@
     <primaryAccession>NC_028106</primaryAccession>
     <!-- Parrot bornavirus 7 -->
     <primaryAccession>NC_030689</primaryAccession>
-
+    <!-- Carbovirus - Jungle carpet python virus -->
+    <primaryAccession>MF135780</primaryAccession>
+    <!-- Carbovirus - Southwest carpet python virus -->
+    <primaryAccession>MF135781</primaryAccession>
+    
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>
 </ncbiImporter>

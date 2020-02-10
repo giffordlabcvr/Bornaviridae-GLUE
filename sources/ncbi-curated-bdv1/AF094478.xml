@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AF094478</GBSeq_locus>
+    <GBSeq_length>1186</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>29-NOV-2016</GBSeq_update-date>
+    <GBSeq_create-date>16-JUN-1999</GBSeq_create-date>
+    <GBSeq_definition>Borna disease virus 1 p24 protein and gp18 protein genes, complete cds; and p57 protein gene, partial cds</GBSeq_definition>
+    <GBSeq_primary-accession>AF094478</GBSeq_primary-accession>
+    <GBSeq_accession-version>AF094478.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AF094478.1|</GBSeqid>
+      <GBSeqid>gi|5070252</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Borna disease virus 1 (BoDV-1)</GBSeq_source>
+    <GBSeq_organism>Borna disease virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Mononegavirales; Bornaviridae; Bornavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1186</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nowotny,N.</GBAuthor>
+          <GBAuthor>Kolodziejek,J.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Demonstration of borna disease virus nucleic acid in a patient with chronic fatigue syndrome</GBReference_title>
+        <GBReference_journal>J. Infect. Dis. 181 (5), 1860-1862 (2000)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1086/315474</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>10823802</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1186</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Nowotny,N.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (23-SEP-1998) Institute of Virology, University of Veterinary Sciences, Vienna, Veterinaerplatz 1, Vienna A-1210, Austria</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1186</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1186</GBInterval_to>
+            <GBInterval_accession>AF094478.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Borna disease virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1714621</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Austria</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>isolated from a man suffering from chronic fatigue syndrome</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>10..615</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>10</GBInterval_from>
+            <GBInterval_to>615</GBInterval_to>
+            <GBInterval_accession>AF094478.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>p24 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAD39090.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MATRPSSLVDSLEDEEDPQTLRRERSGSPRPRKIPRNALTQPVDQLLKDLRKNPSTISDPDQRTGREQLSNDELIKKLVTELAENSMIEAEEVRGTLGDISARIEAGFESLSALQVETIQTAQRCDHSDSIRILGENIKILDRSMKTMMETMKLMMEKVDLLYASTAVGTSAPMLPSHPAPPRIYPQLPSAPTADEWDIIP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>631..1059</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>631</GBInterval_from>
+            <GBInterval_to>1059</GBInterval_to>
+            <GBInterval_accession>AF094478.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>gp18 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAD39091.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MNSKHSYVELKDKVIVPGWPTLMLEIDFVGGTSRNQFLNIPFLSVKEPLQLPREKKLTDYFTIDVEPAGHSLVNIYFQIDDFLLLTLNSLSVYKDPIRKYMFLRLNKEQSKHAINAAFNVFSYRLRNIGVGPLGPDIRSSGP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>974..&gt;1186</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>974</GBInterval_from>
+            <GBInterval_to>1186</GBInterval_to>
+            <GBInterval_accession>AF094478.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>p57 protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAD39092.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MQLSMSFLIGFGTLVLALSAQTFDLQGLSCNTDSTPGLIDLEIRRLCHTPTENVISCEVSYLNHTTISLPA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ggaggctcaatggcaacgcgaccatcgagtctggtcgactccctggaggacgaagaagatccccagacactacgacgggaacgatcggggtcaccaagaccacggaagatcccaaggaatgcattgacccaaccagtagaccagctcctgaaggacctcaggaagaacccctccacgatctcagacccagaccagcgaaccggaagggagcagctgtcgaatgatgagcttatcaagaagttagtgacggagctggccgagaatagcatgatcgaggctgaggaggtgcgaggcactcttggggacatctcggctcgcatcgaggcagggtttgagtccttgtctgccctccaagtggaaaccatccagacagctcagcggtgtgaccactccgatagcatcagaatccttggcgagaacatcaagatactggatcgctctatgaagacaatgatggagacaatgaagctcatgatggagaaggtggatctcctctacgcatcaactgccgttggaacctctgcacccatgttgccctcccatcctgcacctccgcgcatctatccccagctcccaagtgccccgacagcggatgagtgggacatcataccataaaaaaatcgaatcaccatgaattcaaaacattcctatgtggagctcaaggacaaggtaattgttcctggatggcccacactgatgcttgagatagactttgtaggagggacttcacggaaccagttccttaacatcccatttctttcagtgaaagagcctctgcagcttccacgcgagaagaagttgaccgactacttcactattgacgtagagccagcgggtcattccctggtcaacatatacttccagattgacgacttcttgctcctaacactcaactcactgtccgtatacaaggacccgattagaaaatacatgttcctacgcctcaacaaagaacagagcaagcacgcaatcaatgcagctttcaatgtcttttcttatcggcttcggaacattggtgttggccctctcggcccagacattcgatcttcagggccttagttgcaatactgactccactcctggactaatcgatctggagataaggcgactttgccacaccccaacggaaaatgtcatttcatgcgaggttagttaccttaaccacacgactattagcctcccggca</GBSeq_sequence>
+  </GBSeq>

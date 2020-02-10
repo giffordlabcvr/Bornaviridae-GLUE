@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>BDVPOLYMER</GBSeq_locus>
+    <GBSeq_length>1133</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>29-NOV-2016</GBSeq_update-date>
+    <GBSeq_create-date>17-DEC-1992</GBSeq_create-date>
+    <GBSeq_definition>Borna disease virus 1 polymerase protein mRNA, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>M99375</GBSeq_primary-accession>
+    <GBSeq_accession-version>M99375.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|M99375.1|BDVPOLYMER</GBSeqid>
+      <GBSeqid>gi|210698</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Borna disease virus 1 (BoDV-1)</GBSeq_source>
+    <GBSeq_organism>Borna disease virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Mononegavirales; Bornaviridae; Bornavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..1133</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>McClure,M.A.</GBAuthor>
+          <GBAuthor>Thibault,K.J.</GBAuthor>
+          <GBAuthor>Hatalski,C.G.</GBAuthor>
+          <GBAuthor>Lipkin,W.I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Sequence similarity between Borna disease virus p40 and a duplicated domain within the paramyxovirus and rhabdovirus polymerase proteins</GBReference_title>
+        <GBReference_journal>J. Virol. 66 (11), 6572-6577 (1992)</GBReference_journal>
+        <GBReference_pubmed>1404604</GBReference_pubmed>
+        <GBReference_remark>Erratum:[J Virol. 1993 Mar;67(3):1746. PMID: 8437242]</GBReference_remark>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..1133</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>McClure,M.A.</GBAuthor>
+          <GBAuthor>Thibault,K.J.</GBAuthor>
+          <GBAuthor>Hatalski,C.G.</GBAuthor>
+          <GBAuthor>Lipkin,W.I.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (17-DEC-1992) Department of Ecology and Evolutionary Biology, University of California, Irvine, Irvine, CA 92717, USA</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..1133</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>1133</GBInterval_to>
+            <GBInterval_accession>M99375.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Borna disease virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1714621</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>regulatory</GBFeature_key>
+        <GBFeature_location>31..43</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>31</GBInterval_from>
+            <GBInterval_to>43</GBInterval_to>
+            <GBInterval_accession>M99375.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>regulatory_class</GBQualifier_name>
+            <GBQualifier_value>other</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>Kozak consensus sequence (Kozak 1987)</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>40..1113</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>40</GBInterval_from>
+            <GBInterval_to>1113</GBInterval_to>
+            <GBInterval_accession>M99375.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>polymerase protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAA73385.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MEDQDLYEPPASLPKLPGKFLQYTVGGSDPHPGTGHEKDIRQNAVALLDQSRRDMFHTVTPSLVFLCLLIPGLHAAFVHGGVPRESYLSTPVTRGEQTVVKTAKFYGEKTTQRDLTELEISSIFSHCCSLLIGVVIGSSSKIKAGAEQIKKRFKTMMAALNRPSHGETATLLQMFNPHEAIDWINGQPWVGSFVLSLLTTDFESPGKEFMDQIKLVASYAQMTTYTTIKEYLAECMDATLTIPVVAYEIRDFLEVSAKLKEEHADLFPFLGAIRHPDAIKLAPRSFPNLASAAFYWSKKENPTMAGYRASTIQPGASVKETQLARYRRREISRGEDGAELSGEISAIMRMIGVTGLN</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>polyA_site</GBFeature_key>
+        <GBFeature_location>1133</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_point>1133</GBInterval_point>
+            <GBInterval_accession>M99375.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ctaaagcccaagagacgcctggttgatgacgccgatgccatggaggaccaagatttatatgaacccccagcgagcctccccaagctccccggaaaattcctacaatacaccgttggggggtctgacccgcatccgggtacagggcatgagaaggatatcaggcagaacgcagtggcattgttagaccagtcacggcgcgatatgtttcatacagtaacgcccagccttgtgtttctatgtttgctaatcccaggactgcacgctgcgtttgttcacggaggggtgcctcgtgaatcttacctgtcgacgcctgttacgcgtggggaacagactgtcgttaagactgcaaagttttacggggaaaagacaacacagcgtgatctcaccgagctggagatctcctctatattcagccattgttgctcattactaattggggttgtgataggatcgtcatctaagattaaagcaggagccgagcagatcaagaaaaggtttaaaactatgatggcagccttaaaccggccatcccatggtgagactgctacactacttcagatgtttaatccacatgaggctatagattggattaacggccagccctgggtaggctcctttgtgttgtctctactaactacagactttgagtccccaggtaaagaattcatggatcagattaaacttgtcgcaagttatgcgcagatgactacgtacactactataaaggagtacctcgcagaatgtatggatgctacccttacaatccctgtagttgcatatgagattcgtgactttttagaagtttcagcaaagcttaaagaggaacatgctgacctgtttccgttcctgggggctattcggcaccccgacgctatcaagcttgcgccacggagctttcccaatctggcttctgcagcgttttactggagtaagaaggagaatcccacaatggcgggctaccgggcctccaccatccagccgggcgcgagtgtcaaggagacccagcttgcccggtataggcgccgcgagatatctcgcggggaagacggggcagagctctcaggtgagatctctgccataatgagaatgataggtgtgactggtctaaactagaaaacaatgaacaaaccaat</GBSeq_sequence>
+  </GBSeq>

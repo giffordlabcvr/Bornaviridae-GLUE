@@ -1,3 +1,4 @@
+  ## Bornavirus
 
   # Mammalian
   create reference REF_MASTER_BDV1  ncbi-refseqs NC_001607
@@ -16,3 +17,7 @@
 
   # Reptile	  
   create reference REF_LGSV1	 	ncbi-refseqs NC_024778 
+
+  ## Carbovirus
+  create reference REF_JCPV  	 	ncbi-refseqs MF135780 
+  create reference REF_SWCPV	 	ncbi-refseqs MF135781 

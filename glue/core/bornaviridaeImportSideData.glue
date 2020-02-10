@@ -3,5 +3,5 @@
 
   # Import metadata for exogenous reference sequences from tabular
   module bornaviridaeSideDataImporter 
-    populate -f tabular/virus/borna-ncbi-refseqs-side-data.tsv
+    populate -f tabular/core/borna-ncbi-refseqs-side-data.tsv
     exit

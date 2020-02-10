@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AJ271119</GBSeq_locus>
+    <GBSeq_length>536</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>RNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>21-MAR-2017</GBSeq_update-date>
+    <GBSeq_create-date>22-JAN-2001</GBSeq_create-date>
+    <GBSeq_definition>Borna disease virus 1 partial gp57 gene for glycoprotein and partial gp18 gene for putative matrix protein, genomic RNA, strain He/80</GBSeq_definition>
+    <GBSeq_primary-accession>AJ271119</GBSeq_primary-accession>
+    <GBSeq_accession-version>AJ271119.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AJ271119.1|</GBSeqid>
+      <GBSeqid>gi|12406805</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>glycoprotein</GBKeyword>
+      <GBKeyword>gp18 gene</GBKeyword>
+      <GBKeyword>gp57 gene</GBKeyword>
+      <GBKeyword>matrix protein</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Borna disease virus 1 (BoDV-1)</GBSeq_source>
+    <GBSeq_organism>Borna disease virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Negarnaviricota; Haploviricotina; Monjiviricetes; Mononegavirales; Bornaviridae; Orthobornavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..536</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Formella,S.</GBAuthor>
+          <GBAuthor>Jehle,C.</GBAuthor>
+          <GBAuthor>Sauder,C.</GBAuthor>
+          <GBAuthor>Staeheli,P.</GBAuthor>
+          <GBAuthor>Schwemmle,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Resistance to superinfection can explain high sequence stability of Borna disease virus genomes in persistently infected cell cultures</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..536</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Schwemmle,M.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-JAN-2000) Schwemmle M., Virology, University of Freiburg, Hermann-Herder-Str. 11, 79104 Freiburg, GERMANY</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..536</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>536</GBInterval_to>
+            <GBInterval_accession>AJ271119.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Borna disease virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>genomic RNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>strain</GBQualifier_name>
+            <GBQualifier_value>He/80</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1714621</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>&lt;1..347</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>347</GBInterval_to>
+            <GBInterval_accession>AJ271119.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gp18</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..347</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>347</GBInterval_to>
+            <GBInterval_accession>AJ271119.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gp18</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>3</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>putative matrix protein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAC24741.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR032414</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:Q99A76</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>VGGTSRNQFLNIPFLSVKEPLQLPREKKLTDYFTIDVEPAGHSLVNIYFQIDDFLLLTLNSLSVYKDPIRKYMFLRLNKEQSKHAINAAFNVFSYRLRNIGVGPLGPDIRSSGP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>gene</GBFeature_key>
+        <GBFeature_location>262..&gt;536</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>262</GBInterval_from>
+            <GBInterval_to>536</GBInterval_to>
+            <GBInterval_accession>AJ271119.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gp57</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>262..&gt;536</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>262</GBInterval_from>
+            <GBInterval_to>536</GBInterval_to>
+            <GBInterval_accession>AJ271119.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>gene</GBQualifier_name>
+            <GBQualifier_value>gp57</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>glycoprotein</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAC24742.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR009344</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:Q99A75</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MQLSMSSLIGFGTLVLALSAQTFDLQGLSCNTDSTPGLIDLEIRRLCHTPTENVISCEVSYLNHTTISLPAVHTSCLKYHCKTYWGFFGSY</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>ttgtaggagggacttcacggaaccagttccttaacatcccatttctttcagtgaaagagcctctgcagcttccacgcgagaagaagttgaccgactacttcaccattgacgtagagccagcaggtcattccctggtcaacatatacttccagattgacgacttcttgctcctaacactcaactcactgtccgtatacaaggacccgattaggaaatacatgttcctacgcctcaacaaggaacagagcaagcacgcaattaatgcagctttcaatgtcttctcttatcggcttcggaacattggtgttggccctctcggcccagacattcgatcttcagggccttagttgcaatactgactccactcctggattaatcgatctggagataaggcgactttgccacaccccaacggaaaatgtcatttcatgcgaggttagttatcttaaccacacgactattagcctcccggcagtccacacgtcatgcctcaagtaccactgcaaaacctattggggattctttggtagctacag</GBSeq_sequence>
+  </GBSeq>

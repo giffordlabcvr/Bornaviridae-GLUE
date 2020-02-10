@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AY686714</GBSeq_locus>
+    <GBSeq_length>690</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>cRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>29-NOV-2016</GBSeq_update-date>
+    <GBSeq_create-date>13-SEP-2004</GBSeq_create-date>
+    <GBSeq_definition>Borna disease virus 1 isolate DP87 p10-like gene, partial sequence; and p24 gene, complete cds</GBSeq_definition>
+    <GBSeq_primary-accession>AY686714</GBSeq_primary-accession>
+    <GBSeq_accession-version>AY686714.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>gb|AY686714.1|</GBSeqid>
+      <GBSeqid>gi|51921617</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_source>Borna disease virus 1 (BoDV-1)</GBSeq_source>
+    <GBSeq_organism>Borna disease virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; ssRNA viruses; ssRNA negative-strand viruses; Mononegavirales; Bornaviridae; Bornavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..690</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kamhieh,S.</GBAuthor>
+          <GBAuthor>Flower,R.</GBAuthor>
+          <GBAuthor>Bode,L.</GBAuthor>
+          <GBAuthor>Bolton,W.</GBAuthor>
+          <GBAuthor>Hodgson,J.</GBAuthor>
+          <GBAuthor>Stoyloff,R.</GBAuthor>
+          <GBAuthor>Wenta,N.</GBAuthor>
+          <GBAuthor>Ludwig,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>First human Australian Borna disease virus p24-gene sequence (complete ORF II) from a strongly N/P-protein positive plasma sample (DP87) of a patient with chronic depression</GBReference_title>
+        <GBReference_journal>Unpublished</GBReference_journal>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..690</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Kamhieh,S.</GBAuthor>
+          <GBAuthor>Flower,R.</GBAuthor>
+          <GBAuthor>Bode,L.</GBAuthor>
+          <GBAuthor>Bolton,W.</GBAuthor>
+          <GBAuthor>Hodgson,J.</GBAuthor>
+          <GBAuthor>Stoyloff,R.</GBAuthor>
+          <GBAuthor>Wenta,N.</GBAuthor>
+          <GBAuthor>Ludwig,H.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (14-JUL-2004) Department of Haematology and Transfusion Medicine, University of Sydney, Level 4, Main Block c/o RNSH, Pacific Highway, St Leonards, NSW 2065, Australia</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..690</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>690</GBInterval_to>
+            <GBInterval_accession>AY686714.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Borna disease virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>viral cRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolate</GBQualifier_name>
+            <GBQualifier_value>DP87</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>isolation_source</GBQualifier_name>
+            <GBQualifier_value>plasma sample from depressed patient</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>host</GBQualifier_name>
+            <GBQualifier_value>Homo sapiens</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1714621</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>country</GBQualifier_name>
+            <GBQualifier_value>Australia</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>misc_feature</GBFeature_key>
+        <GBFeature_location>&lt;1..228</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>228</GBInterval_to>
+            <GBInterval_accession>AY686714.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>similar to p10</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>14..619</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>14</GBInterval_from>
+            <GBInterval_to>619</GBInterval_to>
+            <GBInterval_accession>AY686714.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>phosphoprotein; ORF II</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>product</GBQualifier_name>
+            <GBQualifier_value>p24</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>AAU13931.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>MARDPTVWGDSLEDEEDPQTLRRERSGSPRPRKVPRNALTQPVDQLLRDLRKNPSMISDPDQRTGREQLSNDELIKKLVTELAENSMIEAEEVRGTLGDISARIEAGFESLSALQVETIQTAQRCDHSDSIRILGENIKILDRSMKTMMETMKLMMEKVDLLYASTAVGTSAPMLPSHPAPPRIYPQLPSAPTTDEWDIIP</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>tattaaggagctaatggcacgcgaccctacagtctggggagactccctggaggacgaagaagatccccagacactacgacgggaacgatcggggtcaccaagaccacggaaggtcccaaggaatgcattgacccaaccagtagaccagctcctgagggacctcaggaagaacccctccatgatctcagacccagaccagcgaaccggaagggagcagctgtcgaatgatgagctaatcaagaagttagtgacggagctggccgagaatagcatgatcgaggctgaggaggtgcggggcactcttggagacatctcggctcgtatcgaggcagggtttgagtccctgtccgccctccaagtggaaaccatccagacagctcagcggtgcgatcactccgacagcatcaggatcctcggcgagaacatcaagatattagatcgctccatgaagacaatgatggagacaatgaagctcatgatggagaaggtggatctcctctacgcatcaaccgccgttgggacctctgcacccatgttgccctcccatcctgcacctccgcgcatttatccccagctcccaagtgccccgacaacggatgaatgggacatcataccataaaaaatcgaatcaccatgaattcaaaacattcttatgtggtgctcaaggacaagggtaatcgtattttcttt</GBSeq_sequence>
+  </GBSeq>

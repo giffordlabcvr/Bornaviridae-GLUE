@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<GBSeq>
+
+    <GBSeq_locus>AJ246850</GBSeq_locus>
+    <GBSeq_length>529</GBSeq_length>
+    <GBSeq_strandedness>single</GBSeq_strandedness>
+    <GBSeq_moltype>mRNA</GBSeq_moltype>
+    <GBSeq_topology>linear</GBSeq_topology>
+    <GBSeq_division>VRL</GBSeq_division>
+    <GBSeq_update-date>11-APR-2017</GBSeq_update-date>
+    <GBSeq_create-date>23-JUN-1999</GBSeq_create-date>
+    <GBSeq_definition>Borna disease virus 1 mRNA for partial P40 ORF, clone 4720#1</GBSeq_definition>
+    <GBSeq_primary-accession>AJ246850</GBSeq_primary-accession>
+    <GBSeq_accession-version>AJ246850.1</GBSeq_accession-version>
+    <GBSeq_other-seqids>
+      <GBSeqid>emb|AJ246850.1|</GBSeqid>
+      <GBSeqid>gi|5262228</GBSeqid>
+    </GBSeq_other-seqids>
+    <GBSeq_keywords>
+      <GBKeyword>p40 ORF</GBKeyword>
+    </GBSeq_keywords>
+    <GBSeq_source>Borna disease virus 1 (BoDV-1)</GBSeq_source>
+    <GBSeq_organism>Borna disease virus 1</GBSeq_organism>
+    <GBSeq_taxonomy>Viruses; Riboviria; Negarnaviricota; Haploviricotina; Monjiviricetes; Mononegavirales; Bornaviridae; Orthobornavirus</GBSeq_taxonomy>
+    <GBSeq_references>
+      <GBReference>
+        <GBReference_reference>1</GBReference_reference>
+        <GBReference_position>1..529</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Czygan,M.</GBAuthor>
+          <GBAuthor>Hallensleben,W.</GBAuthor>
+          <GBAuthor>Hofer,M.</GBAuthor>
+          <GBAuthor>Pollak,S.</GBAuthor>
+          <GBAuthor>Sauder,C.</GBAuthor>
+          <GBAuthor>Bilzer,T.</GBAuthor>
+          <GBAuthor>Blumcke,I.</GBAuthor>
+          <GBAuthor>Riederer,P.</GBAuthor>
+          <GBAuthor>Bogerts,B.</GBAuthor>
+          <GBAuthor>Falkai,P.</GBAuthor>
+          <GBAuthor>Schwarz,M.J.</GBAuthor>
+          <GBAuthor>Masliah,E.</GBAuthor>
+          <GBAuthor>Staeheli,P.</GBAuthor>
+          <GBAuthor>Hufert,F.T.</GBAuthor>
+          <GBAuthor>Lieb,K.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Borna disease virus in human brains with a rare form of hippocampal degeneration but not in brains of patients with common neuropsychiatric disorders</GBReference_title>
+        <GBReference_journal>J. Infect. Dis. 180 (5), 1695-1699 (1999)</GBReference_journal>
+        <GBReference_xref>
+          <GBXref>
+            <GBXref_dbname>doi</GBXref_dbname>
+            <GBXref_id>10.1086/315068</GBXref_id>
+          </GBXref>
+        </GBReference_xref>
+        <GBReference_pubmed>10515835</GBReference_pubmed>
+      </GBReference>
+      <GBReference>
+        <GBReference_reference>2</GBReference_reference>
+        <GBReference_position>1..529</GBReference_position>
+        <GBReference_authors>
+          <GBAuthor>Hallensleben,W.</GBAuthor>
+        </GBReference_authors>
+        <GBReference_title>Direct Submission</GBReference_title>
+        <GBReference_journal>Submitted (21-JUN-1999) Hallensleben W., Virology, Institute for Medical Microbiology and Hygiene, Hermann-Herder-Strasse 11, 79104 Freiburg, GERMANY</GBReference_journal>
+      </GBReference>
+    </GBSeq_references>
+    <GBSeq_comment>clone 4720/1. Cloned fragment of the Borna disease virus p40 ORF obtained by RT-PCR using RNA from a human brain. Sequence identical to BDV strain He/80.</GBSeq_comment>
+    <GBSeq_feature-table>
+      <GBFeature>
+        <GBFeature_key>source</GBFeature_key>
+        <GBFeature_location>1..529</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>529</GBInterval_to>
+            <GBInterval_accession>AJ246850.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>organism</GBQualifier_name>
+            <GBQualifier_value>Borna disease virus 1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>mol_type</GBQualifier_name>
+            <GBQualifier_value>mRNA</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>taxon:1714621</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+      <GBFeature>
+        <GBFeature_key>CDS</GBFeature_key>
+        <GBFeature_location>&lt;1..&gt;529</GBFeature_location>
+        <GBFeature_intervals>
+          <GBInterval>
+            <GBInterval_from>1</GBInterval_from>
+            <GBInterval_to>529</GBInterval_to>
+            <GBInterval_accession>AJ246850.1</GBInterval_accession>
+          </GBInterval>
+        </GBFeature_intervals>
+        <GBFeature_partial5 value="true"/>
+        <GBFeature_partial3 value="true"/>
+        <GBFeature_quals>
+          <GBQualifier>
+            <GBQualifier_name>note</GBQualifier_name>
+            <GBQualifier_value>unnamed protein product; p40 ORF</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>codon_start</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>transl_table</GBQualifier_name>
+            <GBQualifier_value>1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>protein_id</GBQualifier_name>
+            <GBQualifier_value>CAB45660.1</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR009441</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>InterPro:IPR015969</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>db_xref</GBQualifier_name>
+            <GBQualifier_value>UniProtKB/TrEMBL:Q77A34</GBQualifier_value>
+          </GBQualifier>
+          <GBQualifier>
+            <GBQualifier_name>translation</GBQualifier_name>
+            <GBQualifier_value>LVFLCLLIPGLHAAFVHGGVPRESYLSTPVTRGEQTVVKTAKFYGEKTTQRDLTELEISSIFSHCCSLLIGVVIGSSSKIKAGAEQIKKRFKTMMAALNRPSHGETATLLQMFNPHEAIDWINGQPWVGSFVLSLLTTDFESPGKEFMDQIKLVASYAQMTTYTTIKEYLAECMDA</GBQualifier_value>
+          </GBQualifier>
+        </GBFeature_quals>
+      </GBFeature>
+    </GBSeq_feature-table>
+    <GBSeq_sequence>cttgtgtttctatgtttgctaatcccaggactgcacgctgcgtttgttcacggaggggtgcctcgtgaatcttacctgtcgacgcctgttacgcgtggggaacagactgtcgttaagactgcaaagttttacggggaaaagacaacacagcgtgatctcaccgagctggagatctcctctatattcagccattgttgctcattactaattggggttgtgataggatcgtcatctaagattaaagcaggagccgagcagatcaagaaaaggtttaaaactatgatggcagccttaaaccggccatcccatggtgagactgctacactacttcagatgtttaatccacatgaggctatagattggattaacggccagccctgggtaggctcctttgtgttgtctctactaactacagactttgagtccccaggtaaagaattcatggatcagattaaacttgtcgcaagttatgcgcagatgactacgtacactactataaaggagtacctcgcagaatgtatggatgcta</GBSeq_sequence>
+  </GBSeq>

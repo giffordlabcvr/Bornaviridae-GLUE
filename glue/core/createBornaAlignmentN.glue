@@ -1,0 +1,6 @@
+create alignment AL_BDV1 -r REF_MASTER_BDV1
+alignment AL_BDV1 add member -w "source.name = 'ncbi-curated-bdv1'"
+compute alignment AL_BDV1 bornaviridaeCompoundAligner
+
+create module -t fastaAlignmentExporter
+module fastaAlignmentExporter export AL_BDV1 -r REF_MASTER_BDV1 -f N -e -a -o Nucleoprotein.fna

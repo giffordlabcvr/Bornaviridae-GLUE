@@ -20,7 +20,7 @@ project bornaviridae
 
   # Add feature locations to reference sequences
   module featureLocationTextToGlue
-    transform tabular/virus/borna-reference_feature_locations.tsv  -r
+    transform tabular/core/borna-reference_feature_locations.tsv  -r
     exit
 
   # Import alignments
