@@ -35,6 +35,10 @@
     <primaryAccession>MF135780</primaryAccession>
     <!-- Carbovirus - Southwest carpet python virus -->
     <primaryAccession>MF135781</primaryAccession>
+    <!-- Cultervirus - Wuhan sharpbelly bornavirus -->
+    <primaryAccession>MG599939</primaryAccession>
+    
+    MG599939
     
   </specificPrimaryAccessions>  
   <sequenceIdField>PRIMARY_ACCESSION</sequenceIdField>

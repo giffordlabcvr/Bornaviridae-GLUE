@@ -3,7 +3,11 @@
 ### Bornaviridae     
 
 #~# Major subclade alignments
+create alignment AL_Bornaviridae_MASTER -r REF_MASTER_BDV1 
 alignment AL_Bornaviridae_MASTER
+
+  # Add all members
+  add member -a
 
   extract child AL_Orthobornavirus -r REF_MASTER_BDV1
   demote member AL_Orthobornavirus --whereClause "sequence.genus = 'Orthobornavirus'"
@@ -11,10 +15,13 @@ alignment AL_Bornaviridae_MASTER
   extract child AL_Carbovirus -r REF_JCPV
   demote member AL_Carbovirus --whereClause "sequence.genus = 'Carbovirus'"
 
+  extract child AL_Cultervirus -r REF_WSBV
+  demote member AL_Cultervirus --whereClause "sequence.genus = 'Cultervirus'"
+
 
   exit
 
-#~# Derive constrained alignment segments from unconstrained alignments  
-alignment AL_Bornaviridae_MASTER
-  derive segments AL_BORNAVIRIDAE_UNCONSTRAINED -a --mergeStrategy OVERWRITE
-  exit
+#~# Derive constrained alignment segments from unconstrained alignments  #
+#alignment AL_Bornaviridae_MASTER
+#  derive segments AL_BORNAVIRIDAE_UNCONSTRAINED -a --mergeStrategy OVERWRITE
+#  exit

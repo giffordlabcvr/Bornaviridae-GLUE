@@ -1,4 +1,4 @@
-record_ID	organism	target_datatype	target_version	target_name	probe_type	scaffold	extract_start	extract_end	sequence_length	assigned_name	assigned_gene	orientation	bitscore	identity	evalue_num	evalue_exp	subject_start	subject_end	query_start	query_end	align_len	gap_openings	mismatches
+wrecord_ID	organism	target_datatype	target_version	target_name	probe_type	scaffold	extract_start	extract_end	sequence_length	assigned_name	assigned_gene	orientation	bitscore	identity	evalue_num	evalue_exp	subject_start	subject_end	query_start	query_end	align_len	gap_openings	mismatches
 5	Aotus_nancymaae	low_coverage	ncbi_1.0_April_2015	ana_ref_Anan_1.0_chrUn.fa	ORF	gi|816317442|ref|NW_012169979.1|	6185872	6186165	294	EBLN-Eptesicus	NP	-	98.6	45.918	2.22	27	71	168	1	294	98	0	53
 73472	Aotus_nancymaae	low_coverage	ncbi_1.0_April_2015	ana_ref_Anan_1.0_chrUn.fa	ORF	gi|816324353|ref|NW_012164424.1|	5967378	5968430	1053	EBLN-1	NP	+	303	46.041	1.52	101	31	368	37	1053	341	3	179
 73470	Aotus_nancymaae	low_coverage	ncbi_1.0_April_2015	ana_ref_Anan_1.0_chrUn.fa	ORF	gi|816250876|ref|NW_012190979.1|	143713	144567	855	EBLN-1	NP	-	270	46.341	1.52	89	81	364	1	855	287	2	149

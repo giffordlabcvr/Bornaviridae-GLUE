@@ -21,3 +21,7 @@
   ## Carbovirus
   create reference REF_JCPV  	 	ncbi-refseqs MF135780 
   create reference REF_SWCPV	 	ncbi-refseqs MF135781 
+
+  ## Cultervirus
+  create reference REF_WSBV  	 	ncbi-refseqs MG599939 
+
