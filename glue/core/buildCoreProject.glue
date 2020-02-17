@@ -24,7 +24,7 @@ project bornaviridae
     exit
 
   # Import alignments
-  run file glue/core/bornaviridaeCreateAlignments.glue
+  run file glue/core/bornaviridaeAlignments.glue
 
   # Import alignment tree
   run file glue/core/bornaviridaeAlignmentTree.glue
