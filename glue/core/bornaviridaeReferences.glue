@@ -23,5 +23,5 @@
   create reference REF_SWCPV	 	ncbi-refseqs MF135781 
 
   ## Cultervirus
-  create reference REF_WSBV  	 	ncbi-refseqs MG599939 
+  create reference REF_WhSBV  	 	ncbi-refseqs MG599939 
 

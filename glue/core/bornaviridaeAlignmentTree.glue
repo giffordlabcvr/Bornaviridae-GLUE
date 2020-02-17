@@ -15,7 +15,7 @@ alignment AL_Bornaviridae_MASTER
   extract child AL_Carbovirus -r REF_JCPV
   demote member AL_Carbovirus --whereClause "sequence.genus = 'Carbovirus'"
 
-  extract child AL_Cultervirus -r REF_WSBV
+  extract child AL_Cultervirus -r REF_WhSBV
   demote member AL_Cultervirus --whereClause "sequence.genus = 'Cultervirus'"
 
 
