@@ -1,10 +1,8 @@
 ### Constrained alignment tree
 
-### Bornaviridae     
-
 #~# Major subclade alignments
-create alignment AL_MASTER_N_ROOT -r REF_MASTER_BDV1 
-alignment AL_MASTER_N_ROOT
+create alignment AL_Bornaviridae_ROOT -r REF_MASTER_BDV1 
+alignment AL_Bornaviridae_ROOT
 
   # Add all members
   add member -a
@@ -17,24 +15,14 @@ alignment AL_MASTER_N_ROOT
 
   extract child AL_Cultervirus -r REF_WhSBV
   demote member AL_Cultervirus --whereClause "sequence.genus = 'Cultervirus'"
-
-
   exit
 
 
-
-
-
-
 #~# Root align - derive constrained alignment segments from unconstrained alignments 
-
-#alignment AL_MASTER_N_ROOT
-#  derive segments AL_BORNAVIRIDAE_UNCONSTRAINED -a --mergeStrategy OVERWRITE
-#  exit
+alignment AL_Bornaviridae_ROOT
+  derive segments AL_UNC_Genome_ROOT -a --mergeStrategy OVERWRITE
+  exit
 
 #~# Internal node aligns 
-
+compute alignment AL_Orthobornavirus bornaviridaeCompoundAligner
 compute alignment AL_Carbovirus bornaviridaeCompoundAligner
-compute alignment AL_Carbovirus bornaviridaeCompoundAligner
-
-

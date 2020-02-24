@@ -2,12 +2,14 @@
   module unconstrainedAlignmentImporter
 
     #~# Root individual genes
-    import AL_UNC_N_MASTER -f alignments/virus/root/N_prot_cur_cod.fna
-    import AL_UNC_X_MASTER -f alignments/virus/root/X_prot_cur_cod.fna
-    import AL_UNC_P_MASTER -f alignments/virus/root/P_prot_cur_cod.fna
-    import AL_UNC_M_MASTER -f alignments/virus/root/M_prot_cur_cod.fna
-    import AL_UNC_G_MASTER -f alignments/virus/root/G_prot_cur_cod.fna
-    import AL_UNC_L_MASTER -f alignments/virus/root/L_prot_cur_cod.fna
+    import AL_UNC_N_ROOT -f alignments/virus/root/N_prot_cur_cod.fna
+    import AL_UNC_X_ROOT -f alignments/virus/root/X_prot_cur_cod.fna
+    import AL_UNC_P_ROOT -f alignments/virus/root/P_prot_cur_cod.fna
+    import AL_UNC_M_ROOT -f alignments/virus/root/M_prot_cur_cod.fna
+    import AL_UNC_G_ROOT -f alignments/virus/root/G_prot_cur_cod.fna
+    import AL_UNC_L_ROOT -f alignments/virus/root/L_prot_cur_cod.fna
+    import AL_UNC_Genome_ROOT -f alignments/virus/root/bornaviridae-genome-root.fna
+
 
 
     exit
