@@ -7,8 +7,7 @@ schema-project bornaviridae
 project bornaviridae
 
   # Import sources
-  import source sources/fasta-refseqs-eve/
-  import source sources/fasta-curated-eve/
+  import source sources/fasta-eve-digs/
 
   # Create references
   run file glue/eve/ebvReferences.glue

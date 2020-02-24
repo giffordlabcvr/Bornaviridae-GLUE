@@ -3,8 +3,8 @@
 ### Bornaviridae     
 
 #~# Major subclade alignments
-create alignment AL_Bornaviridae_MASTER -r REF_MASTER_BDV1 
-alignment AL_Bornaviridae_MASTER
+create alignment AL_MASTER_N_ROOT -r REF_MASTER_BDV1 
+alignment AL_MASTER_N_ROOT
 
   # Add all members
   add member -a
@@ -21,7 +21,20 @@ alignment AL_Bornaviridae_MASTER
 
   exit
 
-#~# Derive constrained alignment segments from unconstrained alignments  #
-#alignment AL_Bornaviridae_MASTER
+
+
+
+
+
+#~# Root align - derive constrained alignment segments from unconstrained alignments 
+
+#alignment AL_MASTER_N_ROOT
 #  derive segments AL_BORNAVIRIDAE_UNCONSTRAINED -a --mergeStrategy OVERWRITE
 #  exit
+
+#~# Internal node aligns 
+
+compute alignment AL_Carbovirus bornaviridaeCompoundAligner
+compute alignment AL_Carbovirus bornaviridaeCompoundAligner
+
+
