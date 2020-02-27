@@ -23,9 +23,7 @@
         <property>genus</property>
     </textFileColumn>
 
-    <skipMissing>true</skipMissing>
-
-    <textFileColumn>
+     <textFileColumn>
         <header>virus_genus</header>
         <property>genus</property>
     </textFileColumn>

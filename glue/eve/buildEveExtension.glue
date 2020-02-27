@@ -12,11 +12,12 @@ project bornaviridae
   # Create references
   run file glue/eve/ebvReferences.glue
 
-  # Import sequence-associated data
-  run file glue/eve/ebvImportSideData.glue
+  # Import ebv sequences and side data
+  run script glue/eve/loadLocusData1.js
+  run script glue/eve/loadLocusData2.js
 
   # Add feature locations to reference sequences
-  module featureLocationTextToGlue transform tabular/ebv-reference_feature_locations.tsv -r
+  #module featureLocationTextToGlue transform tabular/ebv-reference_feature_locations.tsv -r
 
   # Import alignments
   #run file glue/eve/ebvAlignments.glue

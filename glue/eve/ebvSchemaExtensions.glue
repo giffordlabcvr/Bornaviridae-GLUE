@@ -4,14 +4,14 @@
 
   table locus_data
   
-    create field scaffold VARCHAR 50
+    create field scaffold VARCHAR 100
     create field start INTEGER
     create field end INTEGER
-    create field orientation VARCHAR 10
+    create field orientation VARCHAR 20
     create field length INTEGER
-    create field assigned_name VARCHAR 10
-    create field assigned_gene VARCHAR 10
-    create field bitscore VARCHAR 10
+    create field assigned_name VARCHAR 100
+    create field assigned_gene VARCHAR 100
+    create field bitscore VARCHAR 20
 
     exit
 

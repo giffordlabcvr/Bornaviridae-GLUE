@@ -1,7 +1,7 @@
 // Load EVE data from tab file 
 var loadResult;
 glue.inMode("module/bornaviridaeTabularUtility", function() {
-	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/locus/ebv-locus-data"]));
+	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/locus/ebv-locus-data.tsv"]));
 	//glue.log("INFO", "load result was:", loadResult);
 });
 
@@ -19,6 +19,7 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "bitscore", eveObj.bitscore]);
 
 	});
+	
 });
 
 
