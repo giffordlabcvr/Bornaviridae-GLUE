@@ -11,6 +11,7 @@ project bornaviridae
 
   # Import sources
   import source sources/ncbi-refseqs/
+  import source sources/fasta-refseqs/
   
   # Import sequence-associated data
   run file glue/core/bornaviridaeImportSideData.glue
@@ -22,6 +23,9 @@ project bornaviridae
   module featureLocationTextToGlue
     transform tabular/core/borna-reference_feature_locations.tsv  -r
     exit
+
+  # Add feature locations to gene reference sequences
+  run file glue/core/bornaviridaeFeatureLocationsGenes.glue
 
   # Import alignments
   run file glue/core/bornaviridaeAlignments.glue

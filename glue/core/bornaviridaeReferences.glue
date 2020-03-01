@@ -35,19 +35,19 @@
   create reference REF_MASTER_BDV1_L  fasta-refseqs BDV1_L
   
   # Carbovirus
-  create reference REF_MASTER_JCPV_N  fasta-refseqs JCPV_N
-  create reference REF_MASTER_JCPV_X  fasta-refseqs JCPV_X
-  create reference REF_MASTER_JCPV_P  fasta-refseqs JCPV_P
-  create reference REF_MASTER_JCPV_M  fasta-refseqs JCPV_M
-  create reference REF_MASTER_JCPV_G  fasta-refseqs JCPV_G
-  create reference REF_MASTER_JCPV_L  fasta-refseqs JCPV_L
+  create reference REF_JCPV_N  fasta-refseqs JCPV_N
+  create reference REF_JCPV_X  fasta-refseqs JCPV_X
+  create reference REF_JCPV_P  fasta-refseqs JCPV_P
+  create reference REF_JCPV_M  fasta-refseqs JCPV_M
+  create reference REF_JCPV_G  fasta-refseqs JCPV_G
+  create reference REF_JCPV_L  fasta-refseqs JCPV_L
   
   # Cultervirus
-  create reference REF_MASTER_WhSBV_N  fasta-refseqs WhSBV_N
-  create reference REF_MASTER_WhSBV_X  fasta-refseqs WhSBV_X
-  create reference REF_MASTER_WhSBV_P  fasta-refseqs WhSBV_P
-  create reference REF_MASTER_WhSBV_M  fasta-refseqs WhSBV_M
-  create reference REF_MASTER_WhSBV_G  fasta-refseqs WhSBV_G
-  create reference REF_MASTER_WhSBV_L  fasta-refseqs WhSBV_L
+  create reference REF_WhSBV_N  fasta-refseqs WhSBV_N
+  create reference REF_WhSBV_X  fasta-refseqs WhSBV_X
+  create reference REF_WhSBV_P  fasta-refseqs WhSBV_P
+  create reference REF_WhSBV_M  fasta-refseqs WhSBV_M
+  create reference REF_WhSBV_G  fasta-refseqs WhSBV_G
+  create reference REF_WhSBV_L  fasta-refseqs WhSBV_L
 
 
