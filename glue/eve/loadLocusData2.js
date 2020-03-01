@@ -19,7 +19,14 @@ _.each(loadResult, function(eveObj) {
 		glue.command(["set", "field", "bitscore", eveObj.bitscore]);
 
 	});
+
+	glue.inMode("sequence/fasta-eve-digs/"+eveObj.sequenceID, function() {
 	
+		glue.command(["set", "field", "name", eveObj.sequenceID]);
+		glue.command(["set", "field", "full_name", eveObj.sequenceID]);
+		glue.command(["set", "field", "genus", eveObj.virus_genus]);
+	});
+
 });
 
 

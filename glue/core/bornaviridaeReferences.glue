@@ -1,10 +1,10 @@
-  ## Bornavirus
-
+  ### Bornavirus genome-length reference seqs
+  
+  ##  Orthobornavirus
   # Mammalian
   create reference REF_MASTER_BDV1  ncbi-refseqs NC_001607
   create reference REF_BDV2      	ncbi-refseqs NC_030692
   create reference REF_VSB1		 	ncbi-refseqs NC_030701
-
   # Avian 
   create reference REF_ABBV1		ncbi-refseqs NC_029642
   create reference REF_ABBV2	 	ncbi-refseqs NC_030691 
@@ -14,7 +14,6 @@
   create reference REF_PBDV2	 	ncbi-refseqs NC_028106 
   create reference REF_PBDV4 	 	ncbi-refseqs NC_030688
   create reference REF_PBDV7 	 	ncbi-refseqs NC_030689
-
   # Reptile	  
   create reference REF_LGSV1	 	ncbi-refseqs NC_024778 
 
@@ -24,4 +23,31 @@
 
   ## Cultervirus
   create reference REF_WhSBV  	 	ncbi-refseqs MG599939 
+
+  ### Bornavirus gene reference seqs
+
+  # Orthobornavirus
+  create reference REF_MASTER_BDV1_N  fasta-refseqs BDV1_N
+  create reference REF_MASTER_BDV1_X  fasta-refseqs BDV1_X
+  create reference REF_MASTER_BDV1_P  fasta-refseqs BDV1_P
+  create reference REF_MASTER_BDV1_M  fasta-refseqs BDV1_M
+  create reference REF_MASTER_BDV1_G  fasta-refseqs BDV1_G
+  create reference REF_MASTER_BDV1_L  fasta-refseqs BDV1_L
+  
+  # Carbovirus
+  create reference REF_MASTER_JCPV_N  fasta-refseqs JCPV_N
+  create reference REF_MASTER_JCPV_X  fasta-refseqs JCPV_X
+  create reference REF_MASTER_JCPV_P  fasta-refseqs JCPV_P
+  create reference REF_MASTER_JCPV_M  fasta-refseqs JCPV_M
+  create reference REF_MASTER_JCPV_G  fasta-refseqs JCPV_G
+  create reference REF_MASTER_JCPV_L  fasta-refseqs JCPV_L
+  
+  # Cultervirus
+  create reference REF_MASTER_WhSBV_N  fasta-refseqs WhSBV_N
+  create reference REF_MASTER_WhSBV_X  fasta-refseqs WhSBV_X
+  create reference REF_MASTER_WhSBV_P  fasta-refseqs WhSBV_P
+  create reference REF_MASTER_WhSBV_M  fasta-refseqs WhSBV_M
+  create reference REF_MASTER_WhSBV_G  fasta-refseqs WhSBV_G
+  create reference REF_MASTER_WhSBV_L  fasta-refseqs WhSBV_L
+
 
