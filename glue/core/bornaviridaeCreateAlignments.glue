@@ -1,6 +1,0 @@
-delete alignment AL_Bornaviridae_MASTER
-
-create alignment AL_Bornaviridae_MASTER -r REF_MASTER_BDV1
-alignment AL_Bornaviridae_MASTER add member --whereClause "source.name = 'ncbi-refseqs'"
-compute alignment AL_Bornaviridae_MASTER bornaviridaeCompoundAligner
-

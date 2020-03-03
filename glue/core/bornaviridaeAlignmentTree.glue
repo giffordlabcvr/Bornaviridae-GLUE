@@ -22,7 +22,5 @@ alignment AL_Bornaviridae_ROOT
 alignment AL_Bornaviridae_ROOT
   derive segments AL_UNC_Genome_ROOT -a --mergeStrategy OVERWRITE
   exit
-
-#~# Internal node aligns 
-compute alignment AL_Orthobornavirus bornaviridaeCompoundAligner
-compute alignment AL_Carbovirus bornaviridaeCompoundAligner
+  
+  

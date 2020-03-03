@@ -9,8 +9,5 @@
     import AL_UNC_G_ROOT -f alignments/virus/root/G_prot_cur_cod.fna
     import AL_UNC_L_ROOT -f alignments/virus/root/L_prot_cur_cod.fna
     import AL_UNC_Genome_ROOT -f alignments/virus/root/bornaviridae-genome-root.fna
-
-
-
     exit
 
