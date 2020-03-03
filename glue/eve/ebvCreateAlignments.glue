@@ -1,0 +1,29 @@
+# Clean up
+delete module fastaAlignmentExporter
+delete module bornaviridaeCompoundAligner_G
+multi-delete alignment -w "name like 'AL_EBL%'"
+
+create module -t fastaAlignmentExporter
+
+# Create the G alignment for Carbovirus
+create module -f modules/bornaviridaeCompoundAligner_G.xml
+
+create alignment AL_EBLG_Carbo_1 -r REF_JCPV_G
+
+alignment AL_EBLG_Carbo_1 add member -w "source.name = 'fasta-eve-digs' and genus = 'Carbovirus' and locus_data.assigned_gene = 'G'"
+
+compute alignment AL_EBLG_Carbo_1 bornaviridaeCompoundAligner_G
+
+module fastaAlignmentExporter export AL_EBLG_Carbo_1 -a -e -o alignments/export/EBLG_Carbo_1.fna
+
+# Create the G alignment for Carbovirus
+create module -f modules/bornaviridaeCompoundAligner_N.xml
+
+create alignment AL_EBLN_Carbo_1 -r REF_JCPV_N
+
+alignment AL_EBLN_Carbo_1 add member -w "source.name = 'fasta-eve-digs' and genus = 'Carbovirus' and locus_data.assigned_gene = 'N'"
+
+compute alignment AL_EBLN_Carbo_1 bornaviridaeCompoundAligner_N
+
+module fastaAlignmentExporter export AL_EBLN_Carbo_1 -a -e -o alignments/export/EBLN_Carbo_1.fna
+
