@@ -1,0 +1,55 @@
+#run file glue/eve/WhSBVSegments.glue
+
+#feature G show location
+
+#show the length of the reference segment sequence
+#sequence fasta-refseqs WhSBV_G show length
+#sequence fasta-refseqs WhSBV_N show length
+#sequence fasta-refseqs WhSBV_L show length
+#sequence fasta-refseqs WhSBV_P show length
+#sequence fasta-refseqs WhSBV_M show length
+#sequence fasta-refseqs WhSBV_X show length
+
+#in this case the length is 1497 bp
+#add the relevant feature to the reference
+#reference REF_WhSBV_G
+#	add feature-location G
+	#set the location of the segment as the entire sequence
+#	feature-location G add segment 1 1497
+#exit
+
+#add the relevant feature to the reference
+#reference REF_WhSBV_N
+#	add feature-location N
+	#set the location of the segment as the entire sequence
+#	feature-location N add segment 1 1149
+#exit
+
+#add the relevant feature to the reference
+reference REF_WhSBV_L
+	add feature-location L
+	#set the location of the segment as the entire sequence
+	feature-location L add segment 1 5187
+exit
+
+#add the relevant feature to the reference
+reference REF_WhSBV_P
+	add feature-location P
+	#set the location of the segment as the entire sequence
+	feature-location P add segment 1 561
+exit
+
+#add the relevant feature to the reference
+reference REF_WhSBV_M
+	add feature-location M
+	#set the location of the segment as the entire sequence
+	feature-location M add segment 1 402
+exit
+
+#add the relevant feature to the reference
+reference REF_WhSBV_X
+	add feature-location X
+	#set the location of the segment as the entire sequence
+	feature-location X add segment 1 294
+exit
+

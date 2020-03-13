@@ -1,0 +1,8 @@
+<compoundAligner>
+	<aligners>
+		<codonAwareBlastAligner>
+			<featureName>X</featureName>
+		</codonAwareBlastAligner>
+		<blastAligner/>
+	</aligners>
+</compoundAligner>
