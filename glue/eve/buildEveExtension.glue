@@ -8,6 +8,7 @@ project bornaviridae
 
   # Import sources
   import source sources/fasta-eve-digs/
+  import source sources/fasta-refseqs-eve/
 
   # Create references
   run file glue/eve/ebvReferences.glue
