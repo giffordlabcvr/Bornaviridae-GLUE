@@ -7,10 +7,8 @@ schema-project bornaviridae
   run file glue/core/bornaviridaeSchemaExtensions.glue
   exit
 
-
 # Build core project
 run file glue/core/buildCoreProject.glue
 
 # Build endogenous bornavirus component
 run file glue/eve/buildEveExtension.glue
-

@@ -1,20 +1,10 @@
 
-  # Mammalian
+  # Mammalian EBLN
   create reference REF_EBLN1_MASTER  fasta-refseqs-eve EBLN-borna.1-Haplorhini-con
   create reference REF_EBLN2_MASTER  fasta-refseqs-eve EBLN-borna.2-Haplorhini-con
   create reference REF_EBLN3_MASTER  fasta-refseqs-eve EBLN-borna.3-Haplorhini-con
   create reference REF_EBLN4_MASTER  fasta-refseqs-eve EBLN-borna.4-Haplorhini-con
-  #create reference REF_EBLN5_MASTER  fasta-refseqs-eve EBLN-borna.5-Haplorhini-con
+ 
+
+  # Mammalian EBLNM
   
-  
-  # Endogenous borna-like nucleoproteins
-  #module unconstrainedAlignmentImporter import AL_EBLN1_UNCONSTRAINED -f alignments/tips/borna/NP/EBLN-1.fna
-  #module unconstrainedAlignmentImporter import AL_EBLN2_UNCONSTRAINED -f alignments/tips/borna/NP/EBLN-2.fna
-  #module unconstrainedAlignmentImporter import AL_EBLN3_UNCONSTRAINED -f alignments/tips/borna/NP/EBLN-3.fna
-  #module unconstrainedAlignmentImporter import AL_EBLN4_UNCONSTRAINED -f alignments/tips/borna/NP/EBLN-4.fna
-  #module unconstrainedAlignmentImporter import AL_EBLN1_Afrotheria_UNCONSTRAINED -f alignments/tips/borna/NP/EBLN-1-Afrotheria.fna
-
-  # Endogenous borna-like glycoproteins
-  #module unconstrainedAlignmentImporter import AL_EBLG1_UNCONSTRAINED -f alignments/tips/borna/M/EBLG-1.fna
-
-
