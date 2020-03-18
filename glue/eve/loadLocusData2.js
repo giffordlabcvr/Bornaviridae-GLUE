@@ -1,4 +1,4 @@
-// Load EVE data from tab file 
+// Load EVE data from tabular file 
 var loadResult;
 glue.inMode("module/bornaviridaeTabularUtility", function() {
 	loadResult = glue.tableToObjects(glue.command(["load-tabular", "tabular/locus/ebv-locus-data.tsv"]));
@@ -20,7 +20,7 @@ _.each(loadResult, function(eveObj) {
 
 	});
 
-	glue.inMode("sequence/fasta-eve-digs/"+eveObj.sequenceID, function() {
+	glue.inMode("sequence/fasta-digs-eve/"+eveObj.sequenceID, function() {
 	
 		glue.command(["set", "field", "name", eveObj.sequenceID]);
 		glue.command(["set", "field", "full_name", eveObj.sequenceID]);

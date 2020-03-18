@@ -1,0 +1,32 @@
+### Add EVEs to constrained alignment tree
+
+#~# Root alignments
+alignment AL_Bornaviridae_ROOT
+
+  # Add all members
+  add member -w "source.name = 'fasta-eve-refseqs'"
+  add member -w "source.name = 'fasta-eve-digs'"
+  
+  demote member AL_Orthobornavirus -w "sequence.genus = 'Orthobornavirus' and sequence.source.name = 'fasta-eve-refseqs'"
+  demote member AL_Carbovirus -w "sequence.genus = 'Carbovirus' and sequence.source.name = 'fasta-eve-refseqs'"
+  demote member AL_Cultervirus -w "sequence.genus = 'Cultervirus' and sequence.source.name = 'fasta-eve-refseqs'"
+  exit
+
+#~# Major subclade alignments 
+alignment AL_Orthobornavirus_N
+  
+  extract child AL_EBLN1 -r REF_EBLN1
+  demote member AL_EBLN1 -w "locus_data.assigned_name = 'EBLN-1'"
+  
+  extract child AL_EBLN2 -r REF_EBLN2
+  demote member AL_EBLN2 -w "locus_data.assigned_name = 'EBLN-2'"
+  
+  extract child AL_EBLN3 -r REF_EBLN3
+  demote member AL_EBLN3 -w "locus_data.assigned_name = 'EBLN-3'"
+  
+  extract child AL_EBLN4 -r REF_EBLN4
+  demote member AL_EBLN4 -w "locus_data.assigned_name = 'EBLN-4'"
+
+  exit
+
+

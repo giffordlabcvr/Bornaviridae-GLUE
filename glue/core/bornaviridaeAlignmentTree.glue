@@ -18,6 +18,15 @@ alignment AL_Bornaviridae_ROOT
   exit
 
 
+#~# Major subclade alignments 
+create alignment AL_Orthobornavirus_N -r REF_MASTER_BDV1_N 
+create alignment AL_Orthobornavirus_X -r REF_MASTER_BDV1_X 
+create alignment AL_Orthobornavirus_P -r REF_MASTER_BDV1_P 
+create alignment AL_Orthobornavirus_M -r REF_MASTER_BDV1_M 
+create alignment AL_Orthobornavirus_G -r REF_MASTER_BDV1_G 
+create alignment AL_Orthobornavirus_L -r REF_MASTER_BDV1_L
+
+
 #~# Root align - derive constrained alignment segments from unconstrained alignments 
 alignment AL_Bornaviridae_ROOT
   derive segments AL_UNC_Genome_ROOT -a --mergeStrategy OVERWRITE

@@ -1,9 +1,9 @@
 
   # Mammalian EBLN
-  create reference REF_EBLN1_MASTER  fasta-refseqs-eve EBLN-borna.1-Haplorhini-con
-  create reference REF_EBLN2_MASTER  fasta-refseqs-eve EBLN-borna.2-Haplorhini-con
-  create reference REF_EBLN3_MASTER  fasta-refseqs-eve EBLN-borna.3-Haplorhini-con
-  create reference REF_EBLN4_MASTER  fasta-refseqs-eve EBLN-borna.4-Haplorhini-con
+  create reference REF_EBLN1 fasta-refseqs-eve EBLN-borna.1-Haplorhini-con
+  create reference REF_EBLN2 fasta-refseqs-eve EBLN-borna.2-Haplorhini-con
+  create reference REF_EBLN3 fasta-refseqs-eve EBLN-borna.3-Haplorhini-con
+  create reference REF_EBLN4 fasta-refseqs-eve EBLN-borna.4-Haplorhini-con
  
 
   # Mammalian EBLNM
