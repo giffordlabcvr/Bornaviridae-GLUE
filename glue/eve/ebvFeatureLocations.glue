@@ -1,87 +1,69 @@
-  # Orthobornavirus
-  reference REF_MASTER_BDV1_N
+  # Nucleoprotein
+  
+  reference REF_EBLN1
+
+    add feature-location whole_genome
+    feature-location whole_genome add segment 1 1564
+    
+    add feature-location 3flank
+    feature-location 3flank add segment 1 1110
+
     add feature-location N
-    feature-location N
-      add segment 1 1110
-      exit       
+    feature-location N add segment 258 1310
+
+    add feature-location 5flank
+    feature-location 5flank add segment 1311 1564
+
+    exit 
+
+
+  reference REF_EBLN2
+
+    add feature-location whole_genome
+    feature-location whole_genome add segment 1 1651
+    
+    add feature-location 3flank
+    feature-location 3flank add segment 1 209
+
+    add feature-location N
+    feature-location N add segment 228 1358
+
+    add feature-location 5flank
+    feature-location 5flank add segment 1395 1651
+
     exit 
      
-  reference REF_MASTER_BDV1_X
-    add feature-location X
-    feature-location X
-      add segment 1 261
-      exit       
-    exit 
 
-  reference REF_MASTER_BDV1_P
-    add feature-location P
-    feature-location P
-      add segment 1 501
-      exit       
-    exit 
+  reference REF_EBLN3
 
-  reference REF_MASTER_BDV1_M
-    add feature-location M
-    feature-location M
-      add segment 1 426
-      exit       
-    exit 
+    add feature-location whole_genome
+    feature-location whole_genome add segment 1 2069
+    
+    add feature-location 3flank
+    feature-location 3flank add segment 1 209
 
-  reference REF_MASTER_BDV1_G
-    add feature-location G
-    feature-location G
-      add segment 1 1509
-      exit       
-    exit 
-
-  reference REF_MASTER_BDV1_L
-    add feature-location L
-    feature-location L
-      add segment 1 4824
-      exit       
-    exit 
-
-
-  # Carbovirus
-  reference REF_JCPV_N
     add feature-location N
-    feature-location N
-      add segment 1 1110
-      exit       
+    feature-location N add segment 228 1358
+
+    add feature-location 5flank
+    feature-location 5flank add segment 1481 2069
+
     exit 
      
-  reference REF_JCPV_X
-    add feature-location X
-    feature-location X
-      add segment 1 273
-      exit       
-    exit 
 
-  reference REF_JCPV_P
-    add feature-location P
-    feature-location P
-      add segment 1 501
-      exit       
-    exit 
+  reference REF_EBLN4
 
-  reference REF_JCPV_M
-    add feature-location M
-    feature-location M
-      add segment 1 390
-      exit       
-    exit 
+    add feature-location whole_genome
+    feature-location whole_genome add segment 1 1852
+    
+    add feature-location 3flank
+    feature-location 3flank add segment 1 209
 
-  reference REF_JCPV_G
-    add feature-location G
-    feature-location G
-      add segment 1 1419
-      exit       
-    exit 
+    add feature-location N
+    feature-location N add segment 331 1407
 
-  reference REF_JCPV_L
-    add feature-location L
-    feature-location L
-      add segment 1 5181
-      exit       
-    exit 
+    add feature-location 5flank
+    feature-location 5flank add segment 1450 1852
 
+    exit 
+     
