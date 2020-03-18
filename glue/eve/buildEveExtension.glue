@@ -10,17 +10,20 @@ project bornaviridae
   import source sources/fasta-eve-digs/
   import source sources/fasta-refseqs-eve/
 
+  # Define features
+  run file glue/extension/bornaviridaeFeatures.glue
+
   # Create references
   run file glue/eve/ebvReferences.glue
 
-  # Import ebv sequences and side data
+  # Import ebv seside data
   run script glue/eve/loadLocusData1.js
   run script glue/eve/loadLocusData2.js
 
   # Add feature locations to reference sequences
-  #module featureLocationTextToGlue transform tabular/ebv-reference_feature_locations.tsv -r
+  run file glue/extension/ebvFeatureLocations.glue
 
-  # Import alignments
+  # Import hand-edited alignments 
   #run file glue/eve/ebvAlignments.glue
 
   # Import alignment tree
