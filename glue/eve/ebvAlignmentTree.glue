@@ -1,3 +1,23 @@
+# Clean up
+delete module fastaAlignmentExporter
+delete module bornaviridaeCompoundAligner_G
+delete module bornaviridaeCompoundAligner_N
+delete module bornaviridaeCompoundAligner_L
+delete module bornaviridaeCompoundAligner_P
+delete module bornaviridaeCompoundAligner_M
+delete module bornaviridaeCompoundAligner_X
+multi-delete alignment -w "name like 'AL_EBL%'"
+
+# Create alignment
+create module -f modules/bornaviridaeCompoundAligner_N.xml
+create module -f modules/bornaviridaeCompoundAligner_P.xml
+create module -f modules/bornaviridaeCompoundAligner_M.xml
+create module -f modules/bornaviridaeCompoundAligner_X.xml
+create module -f modules/bornaviridaeCompoundAligner_G.xml
+create module -f modules/bornaviridaeCompoundAligner_L.xml
+create module -t fastaAlignmentExporter
+
+
 ### Add EVEs to constrained alignment tree
 
 #~# Major subclade alignments 
@@ -19,4 +39,85 @@ alignment AL_Orthobornavirus_N
   extract child AL_EBLN4 -r REF_EBLN4
   demote member AL_EBLN4 -w "sequence.locus_data.assigned_name = 'EBLN-4'"
   exit
+
+### Create alignments
+
+# Create the N alignment for Orthobornavirus
+compute alignment AL_EBLN1 bornaviridaeCompoundAligner_N
+compute alignment AL_EBLN2 bornaviridaeCompoundAligner_N
+compute alignment AL_EBLN3 bornaviridaeCompoundAligner_N
+compute alignment AL_EBLN4 bornaviridaeCompoundAligner_N
+
+
+# Create the G alignment for Carbovirus
+create alignment AL_ECLG_Carbo_1 -r REF_JCPV_G
+alignment AL_ECLG_Carbo_1 add member -w "source.name = 'fasta-eve-digs' and genus = 'Carbovirus' and locus_data.assigned_gene = 'G'"
+compute alignment AL_ECLG_Carbo_1 bornaviridaeCompoundAligner_G
+module fastaAlignmentExporter export AL_ECLG_Carbo_1 -a -e -o alignments/export/ECLG_Carbo_1.fna
+
+# Create the N alignment for Carbovirus
+create alignment AL_ECLN_Carbo_1 -r REF_JCPV_N
+alignment AL_ECLN_Carbo_1 add member -w "source.name = 'fasta-eve-digs' and genus = 'Carbovirus' and locus_data.assigned_gene = 'N'"
+compute alignment AL_ECLN_Carbo_1 bornaviridaeCompoundAligner_N
+module fastaAlignmentExporter export AL_ECLN_Carbo_1 -a -e -o alignments/export/ECLN_Carbo_1.fna
+
+# Create the L alignment for Carbovirus
+create alignment AL_ECLL_Carbo_1 -r REF_JCPV_L
+alignment AL_ECLL_Carbo_1 add member -w "source.name = 'fasta-eve-digs' and genus = 'Carbovirus' and locus_data.assigned_gene = 'L'"
+compute alignment AL_ECLL_Carbo_1 bornaviridaeCompoundAligner_L
+module fastaAlignmentExporter export AL_ECLL_Carbo_1 -a -e -o alignments/export/ECLL_Carbo_1.fna
+
+# Create the M alignment for Carbovirus
+create alignment AL_ECLM_Carbo_1 -r REF_JCPV_M
+alignment AL_ECLM_Carbo_1 add member -w "source.name = 'fasta-eve-digs' and genus = 'Carbovirus' and locus_data.assigned_gene = 'M'"
+compute alignment AL_ECLM_Carbo_1 bornaviridaeCompoundAligner_M
+module fastaAlignmentExporter export AL_ECLM_Carbo_1 -a -e -o alignments/export/ECLM_Carbo_1.fna
+
+# Create the P alignment for Carbovirus
+create alignment AL_ECLP_Carbo_1 -r REF_JCPV_P
+alignment AL_ECLP_Carbo_1 add member -w "source.name = 'fasta-eve-digs' and genus = 'Carbovirus' and locus_data.assigned_gene = 'P'"
+compute alignment AL_ECLP_Carbo_1 bornaviridaeCompoundAligner_P
+module fastaAlignmentExporter export AL_ECLP_Carbo_1 -a -e -o alignments/export/ECLP_Carbo_1.fna
+
+# Create the X alignment for Carbovirus
+create alignment AL_ECLX_Carbo_1 -r REF_JCPV_X
+alignment AL_ECLX_Carbo_1 add member -w "source.name = 'fasta-eve-digs' and genus = 'Carbovirus' and locus_data.assigned_gene = 'X'"
+compute alignment AL_ECLX_Carbo_1 bornaviridaeCompoundAligner_X
+module fastaAlignmentExporter export AL_ECLX_Carbo_1 -a -e -o alignments/export/ECLX_Carbo_1.fna
+
+# Create the G alignment for Cultervirus
+create alignment AL_ECLG_Culter_1 -r REF_WhSBV_G
+alignment AL_ECLG_Culter_1 add member -w "source.name = 'fasta-eve-digs' and genus = 'Cultervirus' and locus_data.assigned_gene = 'G'"
+compute alignment AL_ECLG_Culter_1 bornaviridaeCompoundAligner_G
+module fastaAlignmentExporter export AL_ECLG_Culter_1 -a -e -o alignments/export/ECLG_Culter_1.fna
+
+# Create the N alignment for Cultervirus
+create alignment AL_ECLN_Culter_1 -r REF_WhSBV_N
+alignment AL_ECLN_Culter_1 add member -w "source.name = 'fasta-eve-digs' and genus = 'Cultervirus' and locus_data.assigned_gene = 'N'"
+compute alignment AL_ECLN_Culter_1 bornaviridaeCompoundAligner_N
+module fastaAlignmentExporter export AL_ECLN_Culter_1 -a -e -o alignments/export/ECLN_Culter_1.fna
+
+# Create the L alignment for Cultervirus
+create alignment AL_ECLL_Culter_1 -r REF_WhSBV_L
+alignment AL_ECLL_Culter_1 add member -w "source.name = 'fasta-eve-digs' and genus = 'Cultervirus' and locus_data.assigned_gene = 'L'"
+compute alignment AL_ECLL_Culter_1 bornaviridaeCompoundAligner_L
+module fastaAlignmentExporter export AL_ECLL_Culter_1 -a -e -o alignments/export/ECLL_Culter_1.fna
+
+# Create the P alignment for Cultervirus
+create alignment AL_ECLP_Culter_1 -r REF_WhSBV_P
+alignment AL_ECLP_Culter_1 add member -w "source.name = 'fasta-eve-digs' and genus = 'Cultervirus' and locus_data.assigned_gene = 'P'"
+compute alignment AL_ECLP_Culter_1 bornaviridaeCompoundAligner_P
+module fastaAlignmentExporter export AL_ECLP_Culter_1 -a -e -o alignments/export/ECLP_Culter_1.fna
+
+# Create the M alignment for Cultervirus
+create alignment AL_ECLM_Culter_1 -r REF_WhSBV_M
+alignment AL_ECLM_Culter_1 add member -w "source.name = 'fasta-eve-digs' and genus = 'Cultervirus' and locus_data.assigned_gene = 'M'"
+compute alignment AL_ECLM_Culter_1 bornaviridaeCompoundAligner_M
+module fastaAlignmentExporter export AL_ECLM_Culter_1 -a -e -o alignments/export/ECLM_Culter_1.fna
+
+# Create the X alignment for Cultervirus
+create alignment AL_ECLX_Culter_1 -r REF_WhSBV_X
+alignment AL_ECLX_Culter_1 add member -w "source.name = 'fasta-eve-digs' and genus = 'Cultervirus' and locus_data.assigned_gene = 'X'"
+compute alignment AL_ECLX_Culter_1 bornaviridaeCompoundAligner_X
+module fastaAlignmentExporter export AL_ECLX_Culter_1 -a -e -o alignments/export/ECLX_Culter_1.fna
 

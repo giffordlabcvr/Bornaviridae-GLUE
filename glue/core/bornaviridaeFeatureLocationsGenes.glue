@@ -1,87 +1,94 @@
   # Orthobornavirus
   reference REF_MASTER_BDV1_N
     add feature-location N
-    feature-location N
-      add segment 1 1110
-      exit       
+    feature-location N add segment 1 1110
     exit 
      
   reference REF_MASTER_BDV1_X
     add feature-location X
-    feature-location X
-      add segment 1 261
-      exit       
+    feature-location X add segment 1 261
     exit 
 
   reference REF_MASTER_BDV1_P
     add feature-location P
-    feature-location P
-      add segment 1 501
-      exit       
+    feature-location P add segment 1 501
     exit 
 
   reference REF_MASTER_BDV1_M
     add feature-location M
-    feature-location M
-      add segment 1 426
-      exit       
+    feature-location M add segment 1 426
     exit 
 
   reference REF_MASTER_BDV1_G
     add feature-location G
-    feature-location G
-      add segment 1 1509
-      exit       
+    feature-location G add segment 1 1509
     exit 
 
   reference REF_MASTER_BDV1_L
     add feature-location L
-    feature-location L
-      add segment 1 4824
-      exit       
+    feature-location L add segment 1 4824
     exit 
 
 
   # Carbovirus
   reference REF_JCPV_N
     add feature-location N
-    feature-location N
-      add segment 1 1110
-      exit       
+    feature-location N add segment 1 1110
     exit 
      
   reference REF_JCPV_X
     add feature-location X
-    feature-location X
-      add segment 1 273
-      exit       
+    feature-location X add segment 1 273
     exit 
 
   reference REF_JCPV_P
     add feature-location P
-    feature-location P
-      add segment 1 501
-      exit       
+    feature-location P add segment 1 501
     exit 
 
   reference REF_JCPV_M
     add feature-location M
-    feature-location M
-      add segment 1 390
-      exit       
+    feature-location M add segment 1 390    
     exit 
 
   reference REF_JCPV_G
     add feature-location G
-    feature-location G
-      add segment 1 1419
-      exit       
+    feature-location G add segment 1 1419
     exit 
 
   reference REF_JCPV_L
     add feature-location L
-    feature-location L
-      add segment 1 5181
-      exit       
+    feature-location L add segment 1 5181
     exit 
 
+
+  # Cultervirus
+  reference REF_WhSBV_G
+	add feature-location G
+  	feature-location G add segment 1 1497
+    exit
+
+  reference REF_WhSBV_N
+  	add feature-location N
+  	feature-location N add segment 1 1149
+    exit
+
+  reference REF_WhSBV_L
+	add feature-location L
+	feature-location L add segment 1 5187
+    exit
+
+  reference REF_WhSBV_P
+	add feature-location P
+	feature-location P add segment 1 561
+    exit
+
+  reference REF_WhSBV_M
+	add feature-location M
+	feature-location M add segment 1 402
+    exit
+
+  reference REF_WhSBV_X
+	add feature-location X
+	feature-location X add segment 1 294
+    exit

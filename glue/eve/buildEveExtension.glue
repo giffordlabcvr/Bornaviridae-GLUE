@@ -23,11 +23,11 @@ project bornaviridae
   # Add feature locations to reference sequences
   run file glue/eve/ebvFeatureLocations.glue
 
-  # Import hand-edited alignments 
-  #run file glue/eve/ebvAlignments.glue
+  # Import alignment tree
+  run file glue/eve/ebvAlignmentTree.glue
 
   # Import alignment tree
-  #run file glue/eve/ebvAlignmentTree.glue
+  run file glue/eve/ebvCreateOrthobornaAlignments.glue
 
   # Validate
   validate
