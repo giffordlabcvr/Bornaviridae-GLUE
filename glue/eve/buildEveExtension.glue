@@ -26,9 +26,6 @@ project bornaviridae
   # Import alignment tree
   run file glue/eve/ebvAlignmentTree.glue
 
-  # Import alignment tree
-  run file glue/eve/ebvCreateOrthobornaAlignments.glue
-
   # Validate
   validate
 
