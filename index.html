@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+  
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-127420264-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+	  gtag('config', 'UA-127420264-1');
+	</script>
+
+
+    <meta charset="UTF-8">
+    <title>Bornaviridae-GLUE by giffordlabcvr</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+
+  </head>
+
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Bornaviridae-GLUE</h1>
+      <h2 class="project-tagline">A sequence data resource for bornaviruses.</h2>
+      <a href="./website/project.html" class="btn">Viruses</a>
+      <a href="./website/paleovirology.html" class="btn">Paleoviruses</a>
+      <a href="https://github.com/giffordlabcvr/Bornaviridae-GLUE/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/giffordlabcvr/Bornaviridae-GLUE/tree/master" class="btn">View on GitHub</a>
+    </section>
+
+    <section class="main-content">
+
+	   <h3>
+		 <a id="description" class="anchor" href="#description" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Description</strong>
+	   </h3>
+
+	   <p>
+		 This is <b>Bornaviridae-GLUE</b>, a <a href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a> project
+		 designed to support comparative genomic and evolutionary analysis of <a target="_blank" href="https://viralzone.expasy.org/93">bornaviruses</a>
+		 (family <i>Bornaviridae</i>).
+		 <b>Bornaviridae-GLUE</b> contains aligned, annotated genome sequence data for:
+		 <ol>
+		   <li><a href="./website/project.html">Bornaviruses</a></li> 
+		   <li><a href="./website/paleovirology.html">Endogenous viral elements (EVEs)</a> derived from bornaviruses</li>
+		 </ol>
+	   </p>
+
+
+	   <h3>
+	   <a id="glueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>GLUE project</strong>
+	   </h3>
+
+      	   
+	   <p>
+	
+         On computers with <a href="http://glue-tools.cvr.gla.ac.uk/#/installation">GLUE installed</a>,
+         the <b>Bornaviridae-GLUE</b> project can be instantiated by navigating to the project folder,
+         initiating GLUE, and issuing the following command in the GLUE shell:
+         
+  <pre>
+  <code>Mode path: /
+  GLUE> run file bornaviridaeProject.glue</code></pre>
+		 
+	   </p>
+
+
+
+
+
+
+	   <h3>
+	   <a id="WhatGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What is a GLUE project?</strong>
+	   </h3>
+
+
+	   <p>
+		 <a href="http://glue-tools.cvr.gla.ac.uk/"><b>GLUE</b></a> is an open, integrated
+		 software toolkit that provides functionality for storage and interpretation of
+		 sequence data. 
+	   </p>
+
+	   <p>
+		 <b>GLUE</b> supports the development of <b>“projects”</b> containing the data items
+		 required for comparative genomic analysis 
+		 (e.g.  sequences, multiple sequence alignments, genome feature annotations,
+		 and other sequence-associated data). 
+	   </p>
+
+
+	   <p>
+		 Projects are loaded into the <b>GLUE "engine"</b>, creating a relational database
+		 that represents the semantic relationships between data items.
+		 This provides a robust foundation for the implementation of <b>systematic
+		 comparative analyses</b> and the development of <b>sequence-based resources</b>. 
+	   </p>
+
+
+	   <p>		 
+		  The core schema of the database can be extended to accommodate
+		  the idiosyncrasies of different projects. 
+		  GLUE provides a scripting layer (based on JavaScript) for developing custom
+		  analysis tools. 
+	   </p>
+
+
+	   <p>
+		  Hosting of GLUE projects in an online version control system (e.g. GitHub) provides
+		  a mechanism for their stable, collaborative development.
+	   </p>
+	   
+
+
+	   <h3>
+	   <a id="WhyGlueProject" class="anchor" href="#glueProject" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>What does building the Bornaviridae-GLUE project offer?</strong>
+	   </h3>
+
+		 
+ 
+	   <p>
+		 
+		  Bornaviridae-GLUE offers a number of advantages for performing comparative sequence
+		  analysis of bornaviruses:
+
+		 <ol>
+		   <li> <strong>Standardisation of the genomic co-ordinate space</strong>. GLUE
+		   projects allow all sequences to utilise the coordinate space of a chosen 
+		   reference sequence. Contingencies associated with insertions and deletions
+		   (indels) are handled in a systematic way.
+		   </li>
+		   <li> <strong>Predefined, fully annotated reference sequences</strong>:
+		   This project includes fully-annotated reference sequences for major lineages
+		   within the <i>Bornaviridae</i> family.
+		   </li>
+		   <li> <strong>Alignment trees</strong>:
+		   GLUE allows linking of alignments constructed at distinct taxonomic levels
+		   via an "alignment tree" data structure. In the alignment tree, each alignment
+		   is constrained to a standard reference sequence, thus all multiple sequence
+		   alignments are linked to one another via a standardised coordinate system.
+
+		   </li>
+		 </ol>
+
+	   </p>
+
+
+	   <h3>
+		 <a id="contributors" class="anchor" href="#contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><strong>Contributors</strong>
+	   </h3>
+	   
+	   <p>
+		 <p>Robert J. Gifford (<a href="mailto:robert.gifford@glasgow.ac.uk">robert.gifford@glasgow.ac.uk</a>)</p>
+		 <p>Spyros Lytras (<a href="mailto:s.lytras.1@research.gla.ac.uk">s.lytras.1@research.gla.ac.uk</a>)</p>		 
+	   </p>
+
+
+	 <footer class="site-footer">
+	   <span class="site-footer-owner"><a href="https://github.com/giffordlabcvr/DIGS-tool">Bornaviridae-GLUE</a> is maintained by <a href="https://github.com/giffordlabcvr">giffordlabcvr</a>.</span>
+
+	   <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+	 </footer>
+
+    </section>
+
+
+  </body>
+  
+</html>
